@@ -5,7 +5,7 @@ sudo apt-get install coreutils quilt parted qemu-user-static debootstrap zerofre
 cat << EOF > config
 IMG_NAME=one
 ENABLE_SSH=1
-IMG_HOSTNAME=one
+HOSTNAME=one
 LOCALE_DEFAULT="en_US.UTF-8"
 TIMEZONE_DEFAULT="Europe/Stockholm"
 DEPLOY_DIR=/projects/deploy
